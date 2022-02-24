@@ -1,0 +1,22 @@
+{
+  "name": "gp_n3",
+  "version": "1.0.0",
+  "description": "projeto express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvesma2017/GP_N3.git"
+  },
+  "author": "Marcelo Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvesma2017/GP_N3/issues"
+  },
+  "homepage": "https://github.com/alvesma2017/GP_N3#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
