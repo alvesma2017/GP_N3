@@ -12,10 +12,20 @@ res.send("bem vindo ao site")
 
 })
 
-//criação da rota blog, enviando uma resposta em texto
-app.get("/blog",function(req,res){
+//criação da rota blog, enviando uma resposta em texto com parametro opcional
+app.get("/blog/:artigo?",function(req,res){
 
+    //variavel artigo
+    var artigo = req.params.artigo
+    //se a variavel artigo for verdadeira mostre "tem artigo"
+    if(artigo) {
+
+        res.send("tem artigo")
+
+    //se a variavel artigo vier vazia mostre o bem vindo....    
+    } else {
     res.send("bem vindo ao blog")
+}
     
 })
 
