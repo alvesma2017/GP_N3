@@ -66,7 +66,7 @@ app.listen(3000,function(erro){
 if (erro){
 console.log("servidor com erro")
 
-}  else { 
+} else { 
 
 console.log("servidor ok")
 }
